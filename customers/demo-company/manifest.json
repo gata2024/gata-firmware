@@ -1,8 +1,8 @@
 {
     "product":  "GATA Controller",
-    "channel":  "default",
-    "customer":  "Shared / default channel",
-    "updated":  "2026-08-16",
+    "channel":  "demo-company",
+    "customer":  "Demo Company Ltd",
+    "updated":  "2026-08-18",
     "versions":  [
                      {
                          "version":  "16.8.26.5",
@@ -10,40 +10,40 @@
                          "latest":  true,
                          "notes":  "Current GATE cloud-module firmware (July build); instant self-restart + freeze-proof bootloaders; green status LED",
                          "main":  {
-                                      "url":  "M_16_8_26_3.bin",
+                                      "url":  "../../M_16_8_26_3.bin",
                                       "size":  887892,
                                       "sha256":  "ae3c4ac3abe8621080f2adb1c8606b54998038e0a398b02450345f57c4a67b69"
                                   },
                          "bootloaders":  {
                                              "b1":  {
-                                                        "url":  "B1.bin",
+                                                        "url":  "../../B1.bin",
                                                         "size":  111524,
                                                         "sha256":  "9284bff4e995a9364a5752d70d9ab6319401ca5ccb31df55cb6ee6b1c6872207"
                                                     },
                                              "b3":  {
-                                                        "url":  "B3.bin",
+                                                        "url":  "../../B3.bin",
                                                         "size":  111524,
                                                         "sha256":  "2a64a8b7b0af3d6029349617089ed586748b830c5000a2e1de2df3f0dd5d3d1f"
                                                     }
                                          },
                          "esp":  {
                                      "bootloader":  {
-                                                        "url":  "esp/bootloader.bin",
+                                                        "url":  "../../esp/bootloader.bin",
                                                         "size":  17536,
                                                         "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3"
                                                     },
                                      "partitions":  {
-                                                        "url":  "esp/partitions.bin",
+                                                        "url":  "../../esp/partitions.bin",
                                                         "size":  3072,
                                                         "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd"
                                                     },
                                      "boot_app0":  {
-                                                       "url":  "esp/boot_app0.bin",
+                                                       "url":  "../../esp/boot_app0.bin",
                                                        "size":  8192,
                                                        "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
                                                    },
                                      "firmware":  {
-                                                      "url":  "esp/firmware.bin",
+                                                      "url":  "../../esp/firmware.bin",
                                                       "size":  1259712,
                                                       "sha256":  "f5093ee7ad859184e8df8ee455f43cdf812a5669508919d932a472a276a501b8"
                                                   }
