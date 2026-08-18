@@ -5,9 +5,47 @@
     "updated":  "2026-08-18",
     "versions":  [
                      {
-                         "version":  "18.8.28",
+                         "version":  "18.8.29",
                          "date":  "2026-08-18",
                          "latest":  true,
+                         "notes":  "The controller closes the cloud-module check by itself, so an update needs one connection instead of two",
+                         "controller":  {
+                                            "url":  "../../controller_18_8_29.bin",
+                                            "size":  887868,
+                                            "sha256":  "90948f7a1cb47731fa7c16643d3d712913a06776e676393044567a90e27ecb7b"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_18_8_29.bin",
+                                        "size":  112496,
+                                        "sha256":  "6a61c31c4c85aa904c61be89fef7c05820c6b364247bfdedef1b294fbe579bc7"
+                                    },
+                         "esp":  {
+                                     "bootloader":  {
+                                                        "url":  "../../esp/bootloader.bin",
+                                                        "size":  17536,
+                                                        "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3"
+                                                    },
+                                     "partitions":  {
+                                                        "url":  "../../esp/partitions.bin",
+                                                        "size":  3072,
+                                                        "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd"
+                                                    },
+                                     "boot_app0":  {
+                                                       "url":  "../../esp/boot_app0.bin",
+                                                       "size":  8192,
+                                                       "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+                                                   },
+                                     "firmware":  {
+                                                      "url":  "../../esp/firmware.bin",
+                                                      "size":  1259712,
+                                                      "sha256":  "f5093ee7ad859184e8df8ee455f43cdf812a5669508919d932a472a276a501b8"
+                                                  }
+                                 }
+                     },
+                     {
+                         "version":  "18.8.28",
+                         "date":  "2026-08-18",
+                         "latest":  false,
                          "notes":  "The controller now identifies itself as GATA Controller on USB",
                          "controller":  {
                                             "url":  "../../controller_18_8_28.bin",
