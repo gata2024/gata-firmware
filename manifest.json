@@ -2,12 +2,57 @@
     "product":  "GATA Controller",
     "channel":  "default",
     "customer":  "Shared / default channel",
-    "updated":  "2026-08-16",
+    "updated":  "2026-08-18",
     "versions":  [
+                     {
+                         "version":  "18.8.26",
+                         "date":  "2026-08-18",
+                         "latest":  true,
+                         "notes":  "No BOOT switch, no 15-second countdown: the controller is asked to enter update mode, and an interrupted upload can no longer be started",
+                         "main":  {
+                                      "url":  "M_18_8_26.bin",
+                                      "size":  887908,
+                                      "sha256":  "edbab4236e0c3e99c6018a6d667dc28421b86af317fe149d9a6c2c970d17e580"
+                                  },
+                         "bootloaders":  {
+                                             "b1":  {
+                                                        "url":  "B1.bin",
+                                                        "size":  111476,
+                                                        "sha256":  "fa3204a10159d8bd6aaee28b1ece14532f793e1a8abde6a6dec9caaa78d13df1"
+                                                    },
+                                             "b3":  {
+                                                        "url":  "B3.bin",
+                                                        "size":  111476,
+                                                        "sha256":  "fa3204a10159d8bd6aaee28b1ece14532f793e1a8abde6a6dec9caaa78d13df1"
+                                                    }
+                                         },
+                         "esp":  {
+                                     "bootloader":  {
+                                                        "url":  "esp/bootloader.bin",
+                                                        "size":  17536,
+                                                        "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3"
+                                                    },
+                                     "partitions":  {
+                                                        "url":  "esp/partitions.bin",
+                                                        "size":  3072,
+                                                        "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd"
+                                                    },
+                                     "boot_app0":  {
+                                                       "url":  "esp/boot_app0.bin",
+                                                       "size":  8192,
+                                                       "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+                                                   },
+                                     "firmware":  {
+                                                      "url":  "esp/firmware.bin",
+                                                      "size":  1259712,
+                                                      "sha256":  "f5093ee7ad859184e8df8ee455f43cdf812a5669508919d932a472a276a501b8"
+                                                  }
+                                 }
+                     },
                      {
                          "version":  "16.8.26.5",
                          "date":  "2026-08-17",
-                         "latest":  true,
+                         "latest":  false,
                          "notes":  "Current GATE cloud-module firmware (July build); instant self-restart + freeze-proof bootloaders; green status LED",
                          "main":  {
                                       "url":  "M_16_8_26_3.bin",
