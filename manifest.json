@@ -5,9 +5,48 @@
     "updated":  "2026-08-19",
     "versions":  [
                      {
-                         "version":  "19_08_26_General_rev5",
+                         "version":  "19_08_26_General_rev6",
                          "date":  "2026-08-19",
                          "latest":  true,
+                         "board":  "rev6",
+                         "notes":  "Rev 6 boards: system firmware 1.0.10 (first-installation memory preparation + rev 6 ESP path), updated controller + rev 6 cloud module (SPI link)",
+                         "controller":  {
+                                            "url":  "controller_19_08_26_General_rev6.bin",
+                                            "size":  892988,
+                                            "sha256":  "33c6d6590df60cf6100c92e5fbee9dce607e358b9a4f882bea1adcec67d1e63d"
+                                        },
+                         "system":  {
+                                        "url":  "system_19_08_26_General_rev6.bin",
+                                        "size":  120140,
+                                        "sha256":  "2f86b8814db0168bdb37f2d011ba5cca01bfb2e116b33136e4539190644e4bab"
+                                    },
+                         "esp":  {
+                                     "bootloader":  {
+                                                        "url":  "esp/19_08_26_General_rev6/bootloader.bin",
+                                                        "size":  17536,
+                                                        "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3"
+                                                    },
+                                     "partitions":  {
+                                                        "url":  "esp/19_08_26_General_rev6/partitions.bin",
+                                                        "size":  3072,
+                                                        "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd"
+                                                    },
+                                     "boot_app0":  {
+                                                       "url":  "esp/19_08_26_General_rev6/boot_app0.bin",
+                                                       "size":  8192,
+                                                       "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+                                                   },
+                                     "firmware":  {
+                                                      "url":  "esp/19_08_26_General_rev6/firmware.bin",
+                                                      "size":  1269360,
+                                                      "sha256":  "8683fa958804b495153d8563168d05b9209cc2262b4539663d6070e58fdd1623"
+                                                  }
+                                 }
+                     },
+                     {
+                         "version":  "19_08_26_General_rev5",
+                         "date":  "2026-08-19",
+                         "latest":  false,
                          "board":  "rev5",
                          "notes":  "Rev 5 boards: system firmware 1.0.10 (adds first-installation memory preparation), updated controller + cloud module (board auto-detect)",
                          "controller":  {
