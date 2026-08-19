@@ -5,39 +5,39 @@
     "updated":  "2026-08-19",
     "versions":  [
                      {
-                         "version":  "19_08_26_General",
+                         "version":  "19_08_26_General_rev5",
                          "date":  "2026-08-19",
                          "latest":  true,
-                         "board":  "all",
-                         "notes":  "Rev 6 board support: system firmware 1.0.9 (board auto-detect, ESP32 on USART3 for rev 6), unified controller, cloud module with SPI link (runs on rev 5 unchanged)",
+                         "board":  "rev5",
+                         "notes":  "Rev 5 boards: controller + cloud module from the updated (rev 6 era) code - both auto-detect the board; system firmware 1.0.9",
                          "controller":  {
-                                            "url":  "controller_19_08_26_General.bin",
+                                            "url":  "controller_19_08_26_General_rev5.bin",
                                             "size":  892988,
                                             "sha256":  "33c6d6590df60cf6100c92e5fbee9dce607e358b9a4f882bea1adcec67d1e63d"
                                         },
                          "system":  {
-                                        "url":  "system_19_08_26_General.bin",
+                                        "url":  "system_19_08_26_General_rev5.bin",
                                         "size":  113860,
                                         "sha256":  "65a6e158efbfa2d79ac56c5d59d092d74fa0eb8bde3807462bee7c95b5f5a816"
                                     },
                          "esp":  {
                                      "bootloader":  {
-                                                        "url":  "esp/19_08_26_General/bootloader.bin",
+                                                        "url":  "esp/19_08_26_General_rev5/bootloader.bin",
                                                         "size":  17536,
                                                         "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3"
                                                     },
                                      "partitions":  {
-                                                        "url":  "esp/19_08_26_General/partitions.bin",
+                                                        "url":  "esp/19_08_26_General_rev5/partitions.bin",
                                                         "size":  3072,
                                                         "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd"
                                                     },
                                      "boot_app0":  {
-                                                       "url":  "esp/19_08_26_General/boot_app0.bin",
+                                                       "url":  "esp/19_08_26_General_rev5/boot_app0.bin",
                                                        "size":  8192,
                                                        "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
                                                    },
                                      "firmware":  {
-                                                      "url":  "esp/19_08_26_General/firmware.bin",
+                                                      "url":  "esp/19_08_26_General_rev5/firmware.bin",
                                                       "size":  1269360,
                                                       "sha256":  "8683fa958804b495153d8563168d05b9209cc2262b4539663d6070e58fdd1623"
                                                   }
