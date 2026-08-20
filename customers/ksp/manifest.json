@@ -49,50 +49,6 @@
                                      }
                      },
                      {
-                         "version":  "20_08_26_KSP_rev5",
-                         "date":  "2026-08-20",
-                         "latest":  false,
-                         "board":  "rev5",
-                         "notes":  "System firmware 1.0.10 (first-installation memory preparation, rev 6 support), updated controller + cloud module",
-                         "controller":  {
-                                            "url":  "../../controller_20_08_26_KSP_rev5.bin",
-                                            "size":  895716,
-                                            "sha256":  "b164c2b8efbf003a099c7f4fff98de402ec6acded3cde224857eea0bf8565c5a"
-                                        },
-                         "system":  {
-                                        "url":  "../../system_20_08_26_KSP_rev5.bin",
-                                        "size":  120140,
-                                        "sha256":  "2f86b8814db0168bdb37f2d011ba5cca01bfb2e116b33136e4539190644e4bab"
-                                    },
-                         "esp":  {
-                                     "bootloader":  {
-                                                        "url":  "../../esp/20_08_26_KSP_rev5/bootloader.bin",
-                                                        "size":  17536,
-                                                        "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3"
-                                                    },
-                                     "partitions":  {
-                                                        "url":  "../../esp/20_08_26_KSP_rev5/partitions.bin",
-                                                        "size":  3072,
-                                                        "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd"
-                                                    },
-                                     "boot_app0":  {
-                                                       "url":  "../../esp/20_08_26_KSP_rev5/boot_app0.bin",
-                                                       "size":  8192,
-                                                       "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
-                                                   },
-                                     "firmware":  {
-                                                      "url":  "../../esp/20_08_26_KSP_rev5/firmware.bin",
-                                                      "size":  1269360,
-                                                      "sha256":  "8683fa958804b495153d8563168d05b9209cc2262b4539663d6070e58fdd1623"
-                                                  }
-                                 },
-                         "license":  {
-                                         "url":  "../../licenses/20_08_26_KSP_rev5.lic",
-                                         "size":  325,
-                                         "sha256":  "f833695ae69031a9282d66fa243da8c89969258036d1b27c20f008b7ec840a59"
-                                     }
-                     },
-                     {
                          "version":  "18.8.29",
                          "date":  "2026-08-18",
                          "latest":  false,
