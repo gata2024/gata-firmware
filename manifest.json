@@ -5,47 +5,9 @@
     "updated":  "2026-08-20",
     "versions":  [
                      {
-                         "version":  "18.8.28",
-                         "date":  "2026-08-18",
-                         "latest":  true,
-                         "notes":  "The controller now identifies itself as GATA Controller on USB",
-                         "controller":  {
-                                            "url":  "controller_18_8_28.bin",
-                                            "size":  887868,
-                                            "sha256":  "90948f7a1cb47731fa7c16643d3d712913a06776e676393044567a90e27ecb7b"
-                                        },
-                         "system":  {
-                                        "url":  "system_18_8_28.bin",
-                                        "size":  111456,
-                                        "sha256":  "e62b864ced4e4ef552b7ac1b96b849fe52e9364ecd2fd473cf64fe8d7c7e71c8"
-                                    },
-                         "esp":  {
-                                     "bootloader":  {
-                                                        "url":  "esp/bootloader.bin",
-                                                        "size":  17536,
-                                                        "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3"
-                                                    },
-                                     "partitions":  {
-                                                        "url":  "esp/partitions.bin",
-                                                        "size":  3072,
-                                                        "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd"
-                                                    },
-                                     "boot_app0":  {
-                                                       "url":  "esp/boot_app0.bin",
-                                                       "size":  8192,
-                                                       "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
-                                                   },
-                                     "firmware":  {
-                                                      "url":  "esp/firmware.bin",
-                                                      "size":  1259712,
-                                                      "sha256":  "f5093ee7ad859184e8df8ee455f43cdf812a5669508919d932a472a276a501b8"
-                                                  }
-                                 }
-                     },
-                     {
                          "version":  "18.8.27",
                          "date":  "2026-08-18",
-                         "latest":  false,
+                         "latest":  true,
                          "notes":  "Update mode is requested by the controller itself: no BOOT switch, no 15-second countdown, and an interrupted upload can never be started",
                          "controller":  {
                                             "url":  "controller_18_8_27.bin",
