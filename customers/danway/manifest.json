@@ -4,6 +4,27 @@
     "customer":  "Danway",
     "updated":  "2026-08-21",
     "versions":  [
-
+                     {
+                         "version":  "21_08_26_Danway_rev5",
+                         "date":  "2026-08-21",
+                         "latest":  true,
+                         "board":  "rev5",
+                         "notes":  "",
+                         "controller":  {
+                                            "url":  "../../controller_21_08_26_Danway_rev5.bin",
+                                            "size":  301348,
+                                            "sha256":  "1991365ab4a446290b42179e966714f1464ccf67d5844f9cb897dc9c53363297"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_21_08_26_Danway_rev5.bin",
+                                        "size":  121036,
+                                        "sha256":  "8548540139623b8825ffe2e500b483e3d1dbeaab2567e815d8dd29f7682fa71f"
+                                    },
+                         "license":  {
+                                         "url":  "../../licenses/21_08_26_Danway_rev5.lic",
+                                         "size":  333,
+                                         "sha256":  "e751375fb569def1dc85310d4886b1a421af4a22220a43f9fdfd2e9a8af16180"
+                                     }
+                     }
                  ]
 }
