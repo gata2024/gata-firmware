@@ -5,9 +5,37 @@
     "updated":  "2026-08-23",
     "versions":  [
                      {
-                         "version":  "23_08_26_General_rev5",
+                         "version":  "23_08_26_General_rev6",
                          "date":  "2026-08-23",
                          "latest":  true,
+                         "board":  "rev6",
+                         "notes":  "test 4",
+                         "controller":  {
+                                            "url":  "controller_23_08_26_General_rev6.bin",
+                                            "size":  895716,
+                                            "sha256":  "b164c2b8efbf003a099c7f4fff98de402ec6acded3cde224857eea0bf8565c5a",
+                                            "source":  "NPC20_mini.bin",
+                                            "built":  "2026-08-20 06:53"
+                                        },
+                         "system":  {
+                                        "url":  "system_23_08_26_General_rev6.bin",
+                                        "size":  121036,
+                                        "sha256":  "8548540139623b8825ffe2e500b483e3d1dbeaab2567e815d8dd29f7682fa71f",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-08-21 05:17"
+                                    },
+                         "license":  {
+                                         "url":  "licenses/23_08_26_General_rev6.lic",
+                                         "size":  336,
+                                         "sha256":  "8e22d3fc16d7bcffe3717b55a4ebfbce8d8d2487bafcf70282d57ea8ef559bce",
+                                         "source":  "23_08_26_General_rev6.lic",
+                                         "built":  "2026-08-23 07:56"
+                                     }
+                     },
+                     {
+                         "version":  "23_08_26_General_rev5",
+                         "date":  "2026-08-23",
+                         "latest":  false,
                          "board":  "rev5",
                          "notes":  "test 4",
                          "controller":  {
