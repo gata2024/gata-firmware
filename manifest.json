@@ -2,8 +2,35 @@
     "product":  "GATA Controller",
     "channel":  "default",
     "customer":  "General",
-    "updated":  "2026-08-22",
+    "updated":  "2026-08-23",
     "versions":  [
-
+                     {
+                         "version":  "23_08_26_General_rev5",
+                         "date":  "2026-08-23",
+                         "latest":  true,
+                         "board":  "rev5",
+                         "notes":  "",
+                         "controller":  {
+                                            "url":  "controller_23_08_26_General_rev5.bin",
+                                            "size":  301348,
+                                            "sha256":  "1991365ab4a446290b42179e966714f1464ccf67d5844f9cb897dc9c53363297",
+                                            "source":  "M_Danway_12_7_26.bin",
+                                            "built":  "2026-07-12 02:05"
+                                        },
+                         "system":  {
+                                        "url":  "system_23_08_26_General_rev5.bin",
+                                        "size":  121036,
+                                        "sha256":  "8548540139623b8825ffe2e500b483e3d1dbeaab2567e815d8dd29f7682fa71f",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-08-21 05:17"
+                                    },
+                         "license":  {
+                                         "url":  "licenses/23_08_26_General_rev5.lic",
+                                         "size":  336,
+                                         "sha256":  "9ffa77bfa9738901c35e674327d6d66cc82f6b6d5840b2ef61b6fddaab99afd0",
+                                         "source":  "23_08_26_General_rev5.lic",
+                                         "built":  "2026-08-23 07:17"
+                                     }
+                     }
                  ]
 }
