@@ -4,6 +4,33 @@
     "customer":  "Danway",
     "updated":  "2026-08-24",
     "versions":  [
-
+                     {
+                         "version":  "24_08_26_Danway_rev5",
+                         "date":  "2026-08-24",
+                         "latest":  true,
+                         "board":  "rev5",
+                         "notes":  "",
+                         "controller":  {
+                                            "url":  "../../controller_24_08_26_Danway_rev5.bin",
+                                            "size":  301428,
+                                            "sha256":  "37bebfacd149725dbaea6fe24af16d6455f29740189d9acc70fdeb627d21a6a5",
+                                            "source":  "M_danway_18_7.bin",
+                                            "built":  "2026-07-18 02:09"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_24_08_26_Danway_rev5.bin",
+                                        "size":  121036,
+                                        "sha256":  "cee01434071c07e264f367be81494a67686145eb6a263e5c487270284bb2dc92",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-08-24 05:09"
+                                    },
+                         "license":  {
+                                         "url":  "../../licenses/24_08_26_Danway_rev5.lic",
+                                         "size":  333,
+                                         "sha256":  "373351e663c5cf81f19a050d2d806e7f0a48af1ea33ec9f1fe31fc6ba5fd5d64",
+                                         "source":  "24_08_26_Danway_rev5.lic",
+                                         "built":  "2026-08-24 07:26"
+                                     }
+                     }
                  ]
 }
