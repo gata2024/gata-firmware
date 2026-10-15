@@ -2,70 +2,12 @@
     "product":  "GATA Controller",
     "channel":  "danway",
     "customer":  "Danway",
-    "updated":  "2026-10-14",
+    "updated":  "2026-10-15",
     "versions":  [
-                     {
-                         "version":  "14_10_26_Danway_rev6",
-                         "date":  "2026-10-14",
-                         "latest":  true,
-                         "board":  "rev6",
-                         "notes":  "",
-                         "controller":  {
-                                            "url":  "../../controller_14_10_26_Danway_rev6.bin",
-                                            "size":  1025652,
-                                            "sha256":  "ff064251455ef6886a1cd8bc5cd47569dfeb11ac01f57b091e7bf133b408002b",
-                                            "source":  "NPC20_mini.bin",
-                                            "built":  "2026-10-14 15:48"
-                                        },
-                         "system":  {
-                                        "url":  "../../system_14_10_26_Danway_rev6.bin",
-                                        "size":  121036,
-                                        "sha256":  "cee01434071c07e264f367be81494a67686145eb6a263e5c487270284bb2dc92",
-                                        "source":  "Booster_phase.bin",
-                                        "built":  "2026-08-24 05:09"
-                                    },
-                         "esp":  {
-                                     "bootloader":  {
-                                                        "url":  "../../esp/14_10_26_Danway_rev6/bootloader.bin",
-                                                        "size":  17536,
-                                                        "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3",
-                                                        "source":  "bootloader.bin",
-                                                        "built":  "2026-10-01 04:58"
-                                                    },
-                                     "partitions":  {
-                                                        "url":  "../../esp/14_10_26_Danway_rev6/partitions.bin",
-                                                        "size":  3072,
-                                                        "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd",
-                                                        "source":  "partitions.bin",
-                                                        "built":  "2026-10-01 04:58"
-                                                    },
-                                     "boot_app0":  {
-                                                       "url":  "../../esp/14_10_26_Danway_rev6/boot_app0.bin",
-                                                       "size":  8192,
-                                                       "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
-                                                       "source":  "boot_app0.bin",
-                                                       "built":  "2023-07-24 11:13"
-                                                   },
-                                     "firmware":  {
-                                                      "url":  "../../esp/14_10_26_Danway_rev6/firmware.bin",
-                                                      "size":  1289328,
-                                                      "sha256":  "8506b6df282b51448c672a5afb5a41b7bd4d6c5398974e0f45343b771629006a",
-                                                      "source":  "firmware.bin",
-                                                      "built":  "2026-10-06 04:57"
-                                                  }
-                                 },
-                         "license":  {
-                                         "url":  "../../licenses/14_10_26_Danway_rev6.lic",
-                                         "size":  333,
-                                         "sha256":  "d65e02d8182c07eb3ade3068ac343bb67e7da528d0772acb5860f4c87d7803f2",
-                                         "source":  "14_10_26_Danway_rev6.lic",
-                                         "built":  "2026-10-14 15:51"
-                                     }
-                     },
                      {
                          "version":  "24_08_26_Danway_rev5",
                          "date":  "2026-08-24",
-                         "latest":  false,
+                         "latest":  true,
                          "board":  "rev5",
                          "notes":  "",
                          "controller":  {
