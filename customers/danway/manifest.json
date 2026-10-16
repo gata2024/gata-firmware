@@ -5,9 +5,37 @@
     "updated":  "2026-10-16",
     "versions":  [
                      {
-                         "version":  "16_10_26_Danway_rev5",
+                         "version":  "16_10_26_Danway_rev5old",
                          "date":  "2026-10-16",
                          "latest":  true,
+                         "board":  "rev5old",
+                         "notes":  "",
+                         "controller":  {
+                                            "url":  "../../controller_16_10_26_Danway_rev5old.bin",
+                                            "size":  241504,
+                                            "sha256":  "e572b145867b9fd03afe9b1bb5340025aca602ef89b5f46de55f8ac702e16bff",
+                                            "source":  "NPC20_mini.bin",
+                                            "built":  "2026-10-16 15:27"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_16_10_26_Danway_rev5old.bin",
+                                        "size":  121036,
+                                        "sha256":  "bcef273c26b907f58ad427d72d8f7b26de47179a91479d9dc80629df9670bac6",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-10-15 20:42"
+                                    },
+                         "license":  {
+                                         "url":  "../../licenses/16_10_26_Danway_rev5old.lic",
+                                         "size":  341,
+                                         "sha256":  "a3fc2223c8223ed633cbac3dd93b60cfbe2043a96bc1d6289c81e03b6d131246",
+                                         "source":  "16_10_26_Danway_rev5old.lic",
+                                         "built":  "2026-10-16 15:28"
+                                     }
+                     },
+                     {
+                         "version":  "16_10_26_Danway_rev5",
+                         "date":  "2026-10-16",
+                         "latest":  false,
                          "board":  "rev5",
                          "notes":  "",
                          "controller":  {
