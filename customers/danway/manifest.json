@@ -5,9 +5,67 @@
     "updated":  "2026-10-17",
     "versions":  [
                      {
+                         "version":  "17_10_26_Danway_rev8",
+                         "date":  "2026-10-17",
+                         "latest":  true,
+                         "board":  "rev8",
+                         "notes":  "",
+                         "controller":  {
+                                            "url":  "../../controller_17_10_26_Danway_rev8.bin",
+                                            "size":  1027660,
+                                            "sha256":  "a8b2a451ddea83fbf54008866fb142a029dbac6048aca698460da42654eb7aaa",
+                                            "source":  "NPC20_mini.bin",
+                                            "built":  "2026-10-17 14:42"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_17_10_26_Danway_rev8.bin",
+                                        "size":  121036,
+                                        "sha256":  "bcef273c26b907f58ad427d72d8f7b26de47179a91479d9dc80629df9670bac6",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-10-15 20:42"
+                                    },
+                         "esp":  {
+                                     "bootloader":  {
+                                                        "url":  "../../esp/17_10_26_Danway_rev8/bootloader.bin",
+                                                        "size":  17536,
+                                                        "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3",
+                                                        "source":  "bootloader.bin",
+                                                        "built":  "2026-10-17 00:44"
+                                                    },
+                                     "partitions":  {
+                                                        "url":  "../../esp/17_10_26_Danway_rev8/partitions.bin",
+                                                        "size":  3072,
+                                                        "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd",
+                                                        "source":  "partitions.bin",
+                                                        "built":  "2026-10-17 00:44"
+                                                    },
+                                     "boot_app0":  {
+                                                       "url":  "../../esp/17_10_26_Danway_rev8/boot_app0.bin",
+                                                       "size":  8192,
+                                                       "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
+                                                       "source":  "boot_app0.bin",
+                                                       "built":  "2023-07-24 11:13"
+                                                   },
+                                     "firmware":  {
+                                                      "url":  "../../esp/17_10_26_Danway_rev8/firmware.bin",
+                                                      "size":  1292128,
+                                                      "sha256":  "2f9dcf2015b9266f504920da5ce91170474c2d264b1ffc7b7b244ccc98aa0dab",
+                                                      "source":  "firmware.bin",
+                                                      "built":  "2026-10-17 00:47"
+                                                  }
+                                 },
+                         "license":  {
+                                         "url":  "../../licenses/17_10_26_Danway_rev8.lic",
+                                         "size":  333,
+                                         "sha256":  "3b76f2eb164b4c79644123fe4e6cf5c9a98437281d02376b5207ac33cdbe9fcc",
+                                         "source":  "17_10_26_Danway_rev8.lic",
+                                         "built":  "2026-10-17 14:45"
+                                     }
+                     },
+                     {
                          "version":  "16_10_26_Danway_rev5old",
                          "date":  "2026-10-16",
-                         "latest":  true,
+                         "latest":  false,
                          "board":  "rev5old",
                          "notes":  "",
                          "controller":  {
