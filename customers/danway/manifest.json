@@ -67,7 +67,7 @@
                          "date":  "2026-10-19",
                          "latest":  false,
                          "board":  "rev7",
-                         "notes":  "For the rev 8 board - choose Board rev 7. Same as the Board rev 6 version (17_10_26) plus one fix: the start order is sent to the correct pump (out-of-service check by pump id), cyclic on or off.",
+                         "notes":  "For the rev 8 board - choose Board rev 7. Same as the Board rev 6 version (17_10_26) with correct pump choice.",
                          "controller":  {
                                             "url":  "../../controller_19_10_26_Danway_rev8_withpumpstartcommand.bin",
                                             "size":  1028532,
