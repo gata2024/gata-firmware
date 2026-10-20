@@ -66,7 +66,7 @@
                          "version":  "19_10_26_Danway_rev8_withpumpstartcommand",
                          "date":  "2026-10-19",
                          "latest":  false,
-                         "board":  "rev8_withpumpstartcommand",
+                         "board":  "rev7",
                          "notes":  "Same as 17_10_26_Danway_rev8_in_the_board plus one fix: the start order is sent to the correct pump (out-of-service check by pump id), cyclic on or off.",
                          "controller":  {
                                             "url":  "../../controller_19_10_26_Danway_rev8_withpumpstartcommand.bin",
@@ -124,7 +124,7 @@
                          "version":  "17_10_26_Danway_rev8_in_the_board",
                          "date":  "2026-10-17",
                          "latest":  false,
-                         "board":  "rev8_in_the_board",
+                         "board":  "rev6",
                          "notes":  "Version running on the Danway board (built 17 Oct 17:21): no-flow shed, 0.5 bar no-alarm margin, 1 min no-flow wait.",
                          "controller":  {
                                             "url":  "../../controller_17_10_26_Danway_rev8_in_the_board.bin",
