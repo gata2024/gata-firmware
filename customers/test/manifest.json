@@ -34,15 +34,15 @@
                                          "built":  "2026-10-22 23:47"
                                      },
                          "hmi":  {
-                                     "version":  "TEST-ORANGE",
+                                     "version":  "TEST-PINK",
                                      "format":  "files",
-                                     "url":  "../../hmi/hmi_TEST-ORANGE.json",
-                                     "size":  15830,
-                                     "sha256":  "f1f6e04c746bfe57880fd0a5a165559c89f69800b6726038820aff670ed0d926",
+                                     "url":  "../../hmi/hmi_TEST-PINK.json",
+                                     "size":  15828,
+                                     "sha256":  "7e3244aeb5c22acc4b848ef651f25820bbe23de49f3456e7b25239e162f209c4",
                                      "files":  "../../hmi/files/",
                                      "count":  137,
-                                     "total":  50558842,
-                                     "built":  "2026-10-22 23:58"
+                                     "total":  50558836,
+                                     "built":  "2026-10-23 00:09"
                                  }
                      },
                      {
