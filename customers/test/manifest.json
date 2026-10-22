@@ -1,0 +1,146 @@
+{
+    "product":  "GATA Controller",
+    "channel":  "test",
+    "customer":  "test",
+    "updated":  "2026-10-22",
+    "versions":  [
+                     {
+                         "version":  "22_10_26_test_rev6_2",
+                         "date":  "2026-10-22",
+                         "latest":  true,
+                         "board":  "rev6",
+                         "notes":  "red test",
+                         "controller":  {
+                                            "url":  "../../controller_22_10_26_test_rev6_2.bin",
+                                            "size":  1059356,
+                                            "sha256":  "005a6853ddd14bd3d81381c53b4c5ef0eb359f2690e53b8fc85b4d423ff43970",
+                                            "source":  "controller_TEST_RED_rev8.bin",
+                                            "built":  "2026-10-22 16:01",
+                                            "build":  "Oct 22 2026 16:00:32"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_22_10_26_test_rev6_2.bin",
+                                        "size":  121036,
+                                        "sha256":  "bcef273c26b907f58ad427d72d8f7b26de47179a91479d9dc80629df9670bac6",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-10-15 20:42"
+                                    },
+                         "license":  {
+                                         "url":  "../../licenses/22_10_26_test_rev6_2.lic",
+                                         "size":  331,
+                                         "sha256":  "1596284fc11edb900b024b7018437e55aa114558a6caf97b03c75f6bd7262ccb",
+                                         "source":  "22_10_26_test_rev6_2.lic",
+                                         "built":  "2026-10-22 22:23"
+                                     },
+                         "hmi":  {
+                                     "version":  "TEST-B",
+                                     "format":  "files",
+                                     "url":  "../../hmi/hmi_TEST-B_222309.json",
+                                     "size":  15830,
+                                     "sha256":  "438c69d197c7aa928d8306e219e98d39466a20fe4310e85781015aaa158329dd",
+                                     "files":  "../../hmi/files/",
+                                     "count":  137,
+                                     "total":  50538299,
+                                     "built":  "2026-10-22 22:23"
+                                 }
+                     },
+                     {
+                         "version":  "22_10_26_test_rev6",
+                         "date":  "2026-10-22",
+                         "latest":  false,
+                         "board":  "rev6",
+                         "notes":  "red test",
+                         "controller":  {
+                                            "url":  "../../controller_22_10_26_test_rev6.bin",
+                                            "size":  1059356,
+                                            "sha256":  "005a6853ddd14bd3d81381c53b4c5ef0eb359f2690e53b8fc85b4d423ff43970",
+                                            "source":  "controller_TEST_RED_rev8.bin",
+                                            "built":  "2026-10-22 16:01",
+                                            "build":  "Oct 22 2026 16:00:32"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_22_10_26_test_rev6.bin",
+                                        "size":  121036,
+                                        "sha256":  "bcef273c26b907f58ad427d72d8f7b26de47179a91479d9dc80629df9670bac6",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-10-15 20:42"
+                                    },
+                         "license":  {
+                                         "url":  "../../licenses/22_10_26_test_rev6.lic",
+                                         "size":  328,
+                                         "sha256":  "a73ef6b2d7137777f24f80ea8df49df517f5303a688e6143c7b5e69c5a979472",
+                                         "source":  "22_10_26_test_rev6.lic",
+                                         "built":  "2026-10-22 18:17"
+                                     },
+                         "hmi":  {
+                                     "version":  "TEST-B",
+                                     "format":  "files",
+                                     "url":  "../../hmi/hmi_TEST-B.json",
+                                     "size":  15831,
+                                     "sha256":  "d21ccd77163745322ba2dff4495f041586e5a6c233943420704825378c680836",
+                                     "files":  "../../hmi/files/",
+                                     "count":  137,
+                                     "total":  50534958,
+                                     "built":  "2026-10-22 18:06"
+                                 }
+                     },
+                     {
+                         "version":  "14_10_26_General_rev6",
+                         "date":  "2026-10-14",
+                         "latest":  false,
+                         "board":  "rev6",
+                         "notes":  "",
+                         "controller":  {
+                                            "url":  "../../controller_14_10_26_General_rev6.bin",
+                                            "size":  1024908,
+                                            "sha256":  "7f7fc0c3c63640470d1d58127f8f9a7f5ecbfaba4f0ce46809cb42114a1c6db0",
+                                            "source":  "NPC20_mini.bin",
+                                            "built":  "2026-10-14 10:02"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_14_10_26_General_rev6.bin",
+                                        "size":  121036,
+                                        "sha256":  "cee01434071c07e264f367be81494a67686145eb6a263e5c487270284bb2dc92",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-08-24 05:09"
+                                    },
+                         "esp":  {
+                                     "bootloader":  {
+                                                        "url":  "../../esp/14_10_26_General_rev6/bootloader.bin",
+                                                        "size":  17536,
+                                                        "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3",
+                                                        "source":  "bootloader.bin",
+                                                        "built":  "2026-10-01 04:58"
+                                                    },
+                                     "partitions":  {
+                                                        "url":  "../../esp/14_10_26_General_rev6/partitions.bin",
+                                                        "size":  3072,
+                                                        "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd",
+                                                        "source":  "partitions.bin",
+                                                        "built":  "2026-10-01 04:58"
+                                                    },
+                                     "boot_app0":  {
+                                                       "url":  "../../esp/14_10_26_General_rev6/boot_app0.bin",
+                                                       "size":  8192,
+                                                       "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
+                                                       "source":  "boot_app0.bin",
+                                                       "built":  "2023-07-24 11:13"
+                                                   },
+                                     "firmware":  {
+                                                      "url":  "../../esp/14_10_26_General_rev6/firmware.bin",
+                                                      "size":  1289328,
+                                                      "sha256":  "8506b6df282b51448c672a5afb5a41b7bd4d6c5398974e0f45343b771629006a",
+                                                      "source":  "firmware.bin",
+                                                      "built":  "2026-10-06 04:57"
+                                                  }
+                                 },
+                         "license":  {
+                                         "url":  "licenses/14_10_26_General_rev6.lic",
+                                         "size":  336,
+                                         "sha256":  "fa21138a2fb8baa2989d7c9ee5a851163648b25e0148cc9fc3018f981fbf431e",
+                                         "source":  "14_10_26_General_rev6.lic",
+                                         "built":  "2026-10-14 10:14"
+                                     }
+                     }
+                 ]
+}

@@ -1,0 +1,14 @@
+<!doctype html><html lang=""><head><script>// Disable console logging globally
+      window.ENABLE_LOGGING = true;
+      
+      const originalLog = console.log;
+      const originalWarn = console.warn;
+      const originalError = console.error;
+      const originalInfo = console.info;
+      const originalDebug = console.debug;
+      
+      console.log = (...args) => window.ENABLE_LOGGING && originalLog(...args);
+      console.warn = (...args) => window.ENABLE_LOGGING && originalWarn(...args);
+      console.error = (...args) => window.ENABLE_LOGGING && originalError(...args);
+      console.info = (...args) => window.ENABLE_LOGGING && originalInfo(...args);
+      console.debug = (...args) => window.ENABLE_LOGGING && originalDebug(...args);</script><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>velzon</title><script defer="defer" src="/js/chunk-vendors.5d586121.js"></script><script defer="defer" src="/js/app.be3cde28.js"></script><link href="/css/chunk-vendors.334373ff.css" rel="stylesheet"><link href="/css/app.6fbb66c1.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but velzon doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
