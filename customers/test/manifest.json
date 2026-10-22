@@ -64,15 +64,15 @@
                                          "built":  "2026-10-23 00:24"
                                      },
                          "hmi":  {
-                                     "version":  "TEST-YELLOW",
+                                     "version":  "TEST-YELLOW-2",
                                      "format":  "files",
-                                     "url":  "../../hmi/hmi_TEST-YELLOW_004857.json",
-                                     "size":  15832,
-                                     "sha256":  "29081a95ca741de4b9dc09f8a0c6a1c82864e8164ae5395a20a2e85ff93902e7",
+                                     "url":  "../../hmi/hmi_TEST-YELLOW-2.json",
+                                     "size":  15834,
+                                     "sha256":  "8513318cb32eb25d63b53c547b1d5275437a484c575b9cfe7bcd7eadb6cbddbc",
                                      "files":  "../../hmi/files/",
                                      "count":  137,
-                                     "total":  50576965,
-                                     "built":  "2026-10-23 00:48"
+                                     "total":  50576971,
+                                     "built":  "2026-10-23 00:53"
                                  }
                      },
                      {
