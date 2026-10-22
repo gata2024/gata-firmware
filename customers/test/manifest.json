@@ -5,9 +5,50 @@
     "updated":  "2026-10-22",
     "versions":  [
                      {
-                         "version":  "22_10_26_test_rev6_2",
+                         "version":  "22_10_26_test_rev6_3",
+                         "release":  4,
                          "date":  "2026-10-22",
                          "latest":  true,
+                         "board":  "rev6",
+                         "notes":  "blue test",
+                         "controller":  {
+                                            "url":  "../../controller_22_10_26_test_rev6_3.bin",
+                                            "size":  1059356,
+                                            "sha256":  "76c84928c7bc1dab5efc372d160dd963a60e0f30eb558467630584ebfe14b417",
+                                            "source":  "controller_TEST_BLUE_rev8.bin",
+                                            "built":  "2026-10-22 16:01",
+                                            "build":  "Oct 22 2026 16:00:42"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_22_10_26_test_rev6_3.bin",
+                                        "size":  121036,
+                                        "sha256":  "bcef273c26b907f58ad427d72d8f7b26de47179a91479d9dc80629df9670bac6",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-10-15 20:42"
+                                    },
+                         "license":  {
+                                         "url":  "../../licenses/22_10_26_test_rev6_3.lic",
+                                         "size":  331,
+                                         "sha256":  "ab281313f4cf310f521e876bd4c5276320816af753d806f0e8956bc88fd51ddc",
+                                         "source":  "22_10_26_test_rev6_3.lic",
+                                         "built":  "2026-10-22 23:37"
+                                     },
+                         "hmi":  {
+                                     "version":  "TEST-BLUE",
+                                     "format":  "files",
+                                     "url":  "../../hmi/hmi_TEST-BLUE.json",
+                                     "size":  15827,
+                                     "sha256":  "344b1b1b0ee93c857a1b20298cf5d36eca237a1a4d02e94482fa7c84f8fa27fe",
+                                     "files":  "../../hmi/files/",
+                                     "count":  137,
+                                     "total":  50543751,
+                                     "built":  "2026-10-22 23:37"
+                                 }
+                     },
+                     {
+                         "version":  "22_10_26_test_rev6_2",
+                         "date":  "2026-10-22",
+                         "latest":  false,
                          "board":  "rev6",
                          "notes":  "red test",
                          "controller":  {
@@ -42,7 +83,8 @@
                                      "count":  137,
                                      "total":  50538299,
                                      "built":  "2026-10-22 22:23"
-                                 }
+                                 },
+                         "release":  3
                      },
                      {
                          "version":  "22_10_26_test_rev6",
@@ -82,7 +124,8 @@
                                      "count":  137,
                                      "total":  50534958,
                                      "built":  "2026-10-22 18:06"
-                                 }
+                                 },
+                         "release":  2
                      },
                      {
                          "version":  "14_10_26_General_rev6",
@@ -140,7 +183,8 @@
                                          "sha256":  "fa21138a2fb8baa2989d7c9ee5a851163648b25e0148cc9fc3018f981fbf431e",
                                          "source":  "14_10_26_General_rev6.lic",
                                          "built":  "2026-10-14 10:14"
-                                     }
+                                     },
+                         "release":  1
                      }
                  ]
 }
