@@ -66,13 +66,13 @@
                          "hmi":  {
                                      "version":  "TEST-YELLOW",
                                      "format":  "files",
-                                     "url":  "../../hmi/hmi_TEST-YELLOW.json",
-                                     "size":  15834,
-                                     "sha256":  "5c2c074e2ff19fa180ea0b148adefca972fc8dd6702ffa3d4e87ece45c3c27e4",
+                                     "url":  "../../hmi/hmi_TEST-YELLOW_004857.json",
+                                     "size":  15832,
+                                     "sha256":  "29081a95ca741de4b9dc09f8a0c6a1c82864e8164ae5395a20a2e85ff93902e7",
                                      "files":  "../../hmi/files/",
                                      "count":  137,
-                                     "total":  50563083,
-                                     "built":  "2026-10-23 00:24"
+                                     "total":  50576965,
+                                     "built":  "2026-10-23 00:48"
                                  }
                      },
                      {
