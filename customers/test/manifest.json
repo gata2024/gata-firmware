@@ -5,10 +5,51 @@
     "updated":  "2026-10-22",
     "versions":  [
                      {
+                         "version":  "22_10_26_test_rev6_4",
+                         "release":  5,
+                         "date":  "2026-10-22",
+                         "latest":  true,
+                         "board":  "rev6",
+                         "notes":  "red LED + purple HMI (update popup test)",
+                         "controller":  {
+                                            "url":  "../../controller_22_10_26_test_rev6_4.bin",
+                                            "size":  1059356,
+                                            "sha256":  "005a6853ddd14bd3d81381c53b4c5ef0eb359f2690e53b8fc85b4d423ff43970",
+                                            "source":  "controller_TEST_RED_rev8.bin",
+                                            "built":  "2026-10-22 16:01",
+                                            "build":  "Oct 22 2026 16:00:32"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_22_10_26_test_rev6_4.bin",
+                                        "size":  121036,
+                                        "sha256":  "bcef273c26b907f58ad427d72d8f7b26de47179a91479d9dc80629df9670bac6",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-10-15 20:42"
+                                    },
+                         "license":  {
+                                         "url":  "../../licenses/22_10_26_test_rev6_4.lic",
+                                         "size":  331,
+                                         "sha256":  "02c573557fc74f51d1b33d2232f6e65081ae6723f8d183bc71f5d444740dc3eb",
+                                         "source":  "22_10_26_test_rev6_4.lic",
+                                         "built":  "2026-10-22 23:47"
+                                     },
+                         "hmi":  {
+                                     "version":  "TEST-PURPLE",
+                                     "format":  "files",
+                                     "url":  "../../hmi/hmi_TEST-PURPLE.json",
+                                     "size":  15831,
+                                     "sha256":  "0e0cbc4e0e28d156ed38284e48fd5b50b71cb7ff6f8130e59a344474cadcdedb",
+                                     "files":  "../../hmi/files/",
+                                     "count":  137,
+                                     "total":  50551666,
+                                     "built":  "2026-10-22 23:47"
+                                 }
+                     },
+                     {
                          "version":  "22_10_26_test_rev6_3",
                          "release":  4,
                          "date":  "2026-10-22",
-                         "latest":  true,
+                         "latest":  false,
                          "board":  "rev6",
                          "notes":  "blue test",
                          "controller":  {
