@@ -2,13 +2,84 @@
     "product":  "GATA Controller",
     "channel":  "test",
     "customer":  "test",
-    "updated":  "2026-10-22",
+    "updated":  "2026-10-23",
     "versions":  [
+                     {
+                         "version":  "23_10_26_test_rev6",
+                         "release":  6,
+                         "date":  "2026-10-23",
+                         "latest":  true,
+                         "board":  "rev6",
+                         "notes":  "YELLOW LED + cloud module + HMI TEST-YELLOW (full update test)",
+                         "controller":  {
+                                            "url":  "../../controller_23_10_26_test_rev6.bin",
+                                            "size":  1059356,
+                                            "sha256":  "8990fb3a41fc04df1ce2ebc98b6de400fd266834b5f7d4b03c6a03dc6749829f",
+                                            "source":  "controller_TEST_YELLOW_rev8.bin",
+                                            "built":  "2026-10-23 00:23",
+                                            "build":  "Oct 23 2026 00:22:56"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_23_10_26_test_rev6.bin",
+                                        "size":  121036,
+                                        "sha256":  "bcef273c26b907f58ad427d72d8f7b26de47179a91479d9dc80629df9670bac6",
+                                        "source":  "Booster_phase.bin",
+                                        "built":  "2026-10-15 20:42"
+                                    },
+                         "esp":  {
+                                     "bootloader":  {
+                                                        "url":  "../../esp/23_10_26_test_rev6/bootloader.bin",
+                                                        "size":  17536,
+                                                        "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3",
+                                                        "source":  "bootloader.bin",
+                                                        "built":  "2026-10-17 00:44"
+                                                    },
+                                     "partitions":  {
+                                                        "url":  "../../esp/23_10_26_test_rev6/partitions.bin",
+                                                        "size":  3072,
+                                                        "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd",
+                                                        "source":  "partitions.bin",
+                                                        "built":  "2026-10-17 00:44"
+                                                    },
+                                     "boot_app0":  {
+                                                       "url":  "../../esp/23_10_26_test_rev6/boot_app0.bin",
+                                                       "size":  8192,
+                                                       "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
+                                                       "source":  "boot_app0.bin",
+                                                       "built":  "2023-07-24 11:13"
+                                                   },
+                                     "firmware":  {
+                                                      "url":  "../../esp/23_10_26_test_rev6/firmware.bin",
+                                                      "size":  1295776,
+                                                      "sha256":  "cd1ca19b8c2c30ae53e9044bad2acd0991c4e625569b58e9670aef43227fb853",
+                                                      "source":  "firmware.bin",
+                                                      "built":  "2026-10-19 23:16"
+                                                  }
+                                 },
+                         "license":  {
+                                         "url":  "../../licenses/23_10_26_test_rev6.lic",
+                                         "size":  328,
+                                         "sha256":  "fefb976ff6133c3144166e238f1a719e2ea75cd7bd5c0e203f619ebe5fc5ba7f",
+                                         "source":  "23_10_26_test_rev6.lic",
+                                         "built":  "2026-10-23 00:24"
+                                     },
+                         "hmi":  {
+                                     "version":  "TEST-YELLOW",
+                                     "format":  "files",
+                                     "url":  "../../hmi/hmi_TEST-YELLOW.json",
+                                     "size":  15834,
+                                     "sha256":  "5c2c074e2ff19fa180ea0b148adefca972fc8dd6702ffa3d4e87ece45c3c27e4",
+                                     "files":  "../../hmi/files/",
+                                     "count":  137,
+                                     "total":  50563083,
+                                     "built":  "2026-10-23 00:24"
+                                 }
+                     },
                      {
                          "version":  "22_10_26_test_rev6_4",
                          "release":  5,
                          "date":  "2026-10-22",
-                         "latest":  true,
+                         "latest":  false,
                          "board":  "rev6",
                          "notes":  "red LED + purple HMI (update popup test)",
                          "controller":  {
