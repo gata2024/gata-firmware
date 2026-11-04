@@ -1,0 +1,50 @@
+{
+ "source": "submersible sewage pump.blend",
+ "frame": "origin = well floor under the pump axis; three.js axes (y up); discharge toward -x",
+ "height": 1.13,
+ "motorR": 0.21,
+ "eyeY": 0.06,
+ "volute": {
+  "y0": 0.17,
+  "y1": 0.37,
+  "r": 0.27
+ },
+ "impeller": {
+  "y": 0.21,
+  "r": 0.2,
+  "h": 0.12
+ },
+ "nozzle": [
+  -0.47,
+  0.27,
+  -0.1
+ ],
+ "riser": [
+  -0.72,
+  0.56,
+  -0.1
+ ],
+ "bendCorner": [
+  -0.72,
+  0.27,
+  -0.1
+ ],
+ "rails": [
+  [
+   -0.86,
+   0.56,
+   0.01
+  ],
+  [
+   -0.86,
+   0.56,
+   -0.21
+  ]
+ ],
+ "cable": [
+  0.11,
+  1.15,
+  -0.06
+ ],
+ "pipeR": 0.09
+}

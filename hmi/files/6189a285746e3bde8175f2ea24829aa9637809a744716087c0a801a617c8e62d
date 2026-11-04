@@ -1,0 +1,34 @@
+{
+ "source": "horizontal multistage pump  .blend",
+ "scale": 0.45,
+ "frame": "origin = suction port face centre, +x shaft toward motor, +y up (three.js)",
+ "bbox": {
+  "min": [
+   -0.0336,
+   -0.4895,
+   -0.4727
+  ],
+  "max": [
+   2.7933,
+   0.8563,
+   0.4727
+  ]
+ },
+ "suction": {
+  "r": 0.1389
+ },
+ "stages": {
+  "x0": 0.2121,
+  "x1": 1.0114,
+  "r": 0.4377
+ },
+ "discharge": {
+  "x": 1.2244,
+  "z": 0.0213,
+  "top": 0.6011,
+  "r": 0.0953,
+  "chamberX1": 1.3828
+ },
+ "motorEnd": 2.8088,
+ "bottom": -0.4895
+}

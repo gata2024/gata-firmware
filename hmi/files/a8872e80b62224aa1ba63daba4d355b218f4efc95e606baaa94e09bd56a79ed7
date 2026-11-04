@@ -1,0 +1,24 @@
+{
+ "source": "vertical multistage pump.blend",
+ "scale": 0.6493,
+ "frame": "the pump frame of pump_system4 (three.js, y up); place at pumpOrigin + slot",
+ "bbox": {
+  "min": [
+   -0.8026,
+   -3.4037,
+   -0.6297
+  ],
+  "max": [
+   0.795,
+   1.4259,
+   0.7749
+  ]
+ },
+ "stages": {
+  "yMin": -0.0547,
+  "yMax": 1.5125,
+  "r": 0.2975,
+  "cx": 0.0216,
+  "cz": 0.0348
+ }
+}
