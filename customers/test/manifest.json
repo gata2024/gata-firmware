@@ -5,10 +5,86 @@
     "updated":  "2026-11-05",
     "versions":  [
                      {
+                         "version":  "05_11_26_test_rev8_2",
+                         "release":  19,
+                         "date":  "2026-11-05",
+                         "latest":  true,
+                         "board":  "rev8",
+                         "notes":  "",
+                         "controller":  {
+                                            "url":  "../../controller_05_11_26_test_rev8.bin",
+                                            "size":  1264364,
+                                            "sha256":  "9382e02511d439b0499744f770e666f4f02ccc3f20a9a0abe5b6837e04e4cce0",
+                                            "source":  "NPC20_mini.bin",
+                                            "built":  "2026-11-05 23:08",
+                                            "build":  "Nov  5 2026 23:07:52",
+                                            "dataFormat":  1,
+                                            "name":  "Controller 18"
+                                        },
+                         "system":  {
+                                        "url":  "../../system_05_11_26_test_rev8_2.bin",
+                                        "size":  121036,
+                                        "sha256":  "8548540139623b8825ffe2e500b483e3d1dbeaab2567e815d8dd29f7682fa71f",
+                                        "source":  "system_05_11_26_test_rev8.bin",
+                                        "built":  "2026-10-22 04:33"
+                                    },
+                         "esp":  {
+                                     "bootloader":  {
+                                                        "url":  "../../esp/23_10_26_test_rev8_2/bootloader.bin",
+                                                        "size":  17536,
+                                                        "sha256":  "095bbcc7357184f68144ab40b152e2f6d68fc9d07f642c17c7888c533ddc67d3",
+                                                        "source":  "bootloader.bin",
+                                                        "built":  "2026-10-23 03:31"
+                                                    },
+                                     "partitions":  {
+                                                        "url":  "../../esp/23_10_26_test_rev8_2/partitions.bin",
+                                                        "size":  3072,
+                                                        "sha256":  "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd",
+                                                        "source":  "partitions.bin",
+                                                        "built":  "2026-10-23 03:31"
+                                                    },
+                                     "boot_app0":  {
+                                                       "url":  "../../esp/23_10_26_test_rev8_2/boot_app0.bin",
+                                                       "size":  8192,
+                                                       "sha256":  "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
+                                                       "source":  "boot_app0.bin",
+                                                       "built":  "2023-07-24 11:13"
+                                                   },
+                                     "firmware":  {
+                                                      "url":  "../../esp/23_10_26_test_rev8_2/firmware.bin",
+                                                      "size":  1296096,
+                                                      "sha256":  "f09b0024e092695471995719a739f5a1e650c1f66df7b621dc3d33eb7080ef3f",
+                                                      "source":  "firmware.bin",
+                                                      "built":  "2026-10-23 03:32"
+                                                  },
+                                     "build":  "Oct 23 2026 03:31:31",
+                                     "name":  "Cloud module 1"
+                                 },
+                         "license":  {
+                                         "url":  "../../licenses/05_11_26_test_rev8_2.lic",
+                                         "size":  331,
+                                         "sha256":  "31d0175fda9d968bf996094ee98ed14a07d154ed823879ecfc6008b42bf02bda",
+                                         "source":  "05_11_26_test_rev8_2.lic",
+                                         "built":  "2026-11-05 23:13"
+                                     },
+                         "hmi":  {
+                                     "version":  "26.11.05.2312",
+                                     "format":  "files",
+                                     "url":  "../../hmi/hmi_26.11.05.2312.json",
+                                     "size":  17425,
+                                     "sha256":  "5850d785412e45741cd1094300b41bea6d3bbf712256561ab03f908bfe7850ff",
+                                     "files":  "../../hmi/files/",
+                                     "count":  151,
+                                     "total":  60215907,
+                                     "built":  "2026-11-05 23:13",
+                                     "name":  "Screen 19.1"
+                                 }
+                     },
+                     {
                          "version":  "05_11_26_test_rev8",
                          "release":  18,
                          "date":  "2026-11-05",
-                         "latest":  true,
+                         "latest":  false,
                          "board":  "rev8",
                          "notes":  "",
                          "controller":  {
