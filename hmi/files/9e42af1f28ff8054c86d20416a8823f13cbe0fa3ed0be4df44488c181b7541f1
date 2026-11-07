@@ -1,0 +1,50 @@
+{
+ "engineVersion": "2.33.3",
+ "copied": "2026-11-06T06:35:14.908Z",
+ "files": {
+  "config.js": {
+   "size": 3439,
+   "sha256": "4322ecb0199a3a164d14a0c9a5facb6fd952cff4980970e2af4e047678ee5470"
+  },
+  "i18n.js": {
+   "size": 71050,
+   "sha256": "bac751a46dfee5bcd6215d17f798633ea2f099725f7473a42906a4d05d3e7d7f"
+  },
+  "util.js": {
+   "size": 4239,
+   "sha256": "e7db1f161f7ada9d5eb025feea1fa304e41bfb59161faf262d8ea5666bc7ff87"
+  },
+  "license.js": {
+   "size": 7644,
+   "sha256": "15791736c9375f9c6f791c6bfed26a0a01cebd3151d9c95571e2792f147437dd"
+  },
+  "validate.js": {
+   "size": 6084,
+   "sha256": "fe7a15ed4402907470c2e8b3f90c958986784eaaa7910afd0b0a7af237fdbaba"
+  },
+  "dfuse.js": {
+   "size": 13645,
+   "sha256": "33526043535c4cb14603cb8b8016d9700c82eecf4ce9a7a535489e7d775d3417"
+  },
+  "transport.js": {
+   "size": 10064,
+   "sha256": "5a3a54e2d439045a5cb78705feccfe33c662891ce3dcdd873da9db24491501bf"
+  },
+  "gata.js": {
+   "size": 21489,
+   "sha256": "03578cdc9cca11fd7c4ca5325d337aea32b950f45af68e8d9affa59cb472d77f"
+  },
+  "esp.js": {
+   "size": 1755,
+   "sha256": "7b36fba01917ab1e60bcc37df21d5f21f0a81b4238c69f9517a8cf6e0b4e9ef1"
+  },
+  "cloud.js": {
+   "size": 26094,
+   "sha256": "1dcdd994a248e0455494e4049a665dec3b8c051026cb543f31bd1d9cf2dc9458"
+  },
+  "flows.js": {
+   "size": 48513,
+   "sha256": "b1f5c3e52cc6d6c2f45e44dc919ef1bd7a1b724ebe2eb468c52a1171f7a2947b"
+  }
+ }
+}
